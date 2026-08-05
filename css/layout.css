@@ -1,0 +1,397 @@
+/* ==========================================
+   ACADEXA
+   Layout Styles
+========================================== */
+
+
+/* ==========================================
+   HEADER
+========================================== */
+
+.header{
+
+    background:var(--white);
+
+    box-shadow:var(--shadow);
+
+    position:sticky;
+
+    top:0;
+
+    left:0;
+
+    z-index:1000;
+
+}
+
+
+/* ==========================================
+   NAVBAR
+========================================== */
+
+.navbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 0;
+
+}
+
+
+/* ==========================================
+   LOGO
+========================================== */
+
+.logo a{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    font-size:1.6rem;
+
+    font-weight:700;
+
+    color:var(--primary-color);
+
+}
+
+.logo img{
+
+    width:45px;
+
+    height:45px;
+
+    object-fit:contain;
+
+}
+
+
+/* ==========================================
+   NAVIGATION LINKS
+========================================== */
+
+.nav-links{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:30px;
+
+}
+
+.nav-links a{
+
+    color:var(--text-color);
+
+    font-weight:500;
+
+    transition:var(--transition);
+
+}
+
+.nav-links a:hover,
+.nav-links a.active{
+
+    color:var(--secondary-color);
+
+}
+
+
+/* ==========================================
+   NAVIGATION BUTTONS
+========================================== */
+
+.nav-buttons{
+
+    display:flex;
+
+    gap:15px;
+
+    align-items:center;
+
+}
+
+
+/* ==========================================
+   HERO SECTION
+========================================== */
+
+.hero{
+
+    min-height:90vh;
+
+    display:flex;
+
+    align-items:center;
+
+    background:linear-gradient(rgba(11,31,58,.92),
+    rgba(11,31,58,.88)),
+    url("../images/background.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    color:var(--white);
+
+}
+
+.hero-container{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    align-items:center;
+
+    gap:60px;
+
+}
+
+.hero-content h1{
+
+    color:var(--white);
+
+    margin:20px 0;
+
+}
+
+.hero-content p{
+
+    color:#d9e2ec;
+
+    margin-bottom:30px;
+
+}
+
+.hero-image img{
+
+    border-radius:18px;
+
+    box-shadow:var(--shadow);
+
+}
+
+
+/* ==========================================
+   GRID LAYOUT
+========================================== */
+
+.about-grid,
+.features-grid,
+.course-grid,
+.dashboard-grid,
+.statistics-grid,
+.choose-grid,
+.testimonial-grid,
+.footer-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:30px;
+
+}
+
+
+/* ==========================================
+   CONTACT PAGE
+========================================== */
+
+.contact-container{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:40px;
+
+    align-items:start;
+
+}
+
+
+/* ==========================================
+   COURSE DETAILS
+========================================== */
+
+.course-details{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:50px;
+
+    align-items:center;
+
+}
+
+.course-image img{
+
+    border-radius:15px;
+
+}
+
+
+/* ==========================================
+   PROFILE
+========================================== */
+
+.profile-card{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:35px;
+
+    background:var(--white);
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:var(--shadow);
+
+    margin-bottom:40px;
+
+}
+
+.profile-image img{
+
+    width:170px;
+
+    height:170px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+}
+
+
+/* ==========================================
+   LOGIN & REGISTER
+========================================== */
+
+.login-section,
+.register-section{
+
+    min-height:75vh;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+}
+
+.login-card,
+.register-card{
+
+    width:100%;
+
+    max-width:500px;
+
+    background:var(--white);
+
+    padding:40px;
+
+    border-radius:15px;
+
+    box-shadow:var(--shadow);
+
+}
+
+.login-card h1,
+.register-card h1{
+
+    text-align:center;
+
+    margin-bottom:10px;
+
+}
+
+.login-card p,
+.register-card p{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+}
+
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+.footer{
+
+    background:var(--primary-color);
+
+    color:var(--white);
+
+    padding:60px 0 20px;
+
+    margin-top:80px;
+
+}
+
+.footer-grid{
+
+    margin-bottom:35px;
+
+}
+
+.footer-column h3{
+
+    color:var(--white);
+
+    margin-bottom:18px;
+
+}
+
+.footer-column p,
+.footer-column a{
+
+    color:#cbd5e1;
+
+    line-height:2;
+
+    transition:var(--transition);
+
+}
+
+.footer-column a:hover{
+
+    color:var(--secondary-color);
+
+}
+
+.footer-bottom{
+
+    text-align:center;
+
+    border-top:1px solid rgba(255,255,255,.15);
+
+    padding-top:20px;
+
+}
+
+.footer-bottom p{
+
+    color:#cbd5e1;
+
+}

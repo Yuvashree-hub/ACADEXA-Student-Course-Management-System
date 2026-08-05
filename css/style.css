@@ -1,0 +1,318 @@
+/* ==========================================
+   ACADEXA
+   Global Styles
+========================================== */
+
+/* Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ==========================================
+   CSS VARIABLES
+========================================== */
+
+:root{
+
+    --primary-color:#0B1F3A;
+    --secondary-color:#10B981;
+    --background-color:#F8FAFC;
+    --white:#FFFFFF;
+    --text-color:#1E293B;
+    --light-text:#64748B;
+    --border-color:#E2E8F0;
+    --danger:#DC2626;
+
+    --shadow:0 10px 25px rgba(0,0,0,0.08);
+
+    --radius:12px;
+
+    --transition:0.3s ease;
+
+}
+
+/* ==========================================
+   RESET
+========================================== */
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+    background:var(--background-color);
+    color:var(--text-color);
+    line-height:1.6;
+
+}
+
+/* ==========================================
+   IMAGES
+========================================== */
+
+img{
+
+    width:100%;
+    display:block;
+
+}
+
+/* ==========================================
+   LINKS
+========================================== */
+
+a{
+
+    text-decoration:none;
+    color:inherit;
+
+}
+
+/* ==========================================
+   LIST
+========================================== */
+
+ul{
+
+    list-style:none;
+
+}
+
+/* ==========================================
+   HEADINGS
+========================================== */
+
+h1{
+
+    font-size:3rem;
+    font-weight:700;
+    color:var(--primary-color);
+
+}
+
+h2{
+
+    font-size:2.2rem;
+    font-weight:600;
+    color:var(--primary-color);
+
+}
+
+h3{
+
+    font-size:1.4rem;
+    font-weight:600;
+
+}
+
+p{
+
+    color:var(--light-text);
+
+}
+
+/* ==========================================
+   CONTAINER
+========================================== */
+
+.container{
+
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+
+}
+
+/* ==========================================
+   SECTION
+========================================== */
+
+section{
+
+    padding:80px 0;
+
+}
+
+/* ==========================================
+   PAGE BANNER
+========================================== */
+
+.page-banner{
+
+    background:linear-gradient(rgba(11,31,58,.85),
+    rgba(11,31,58,.85)),
+    url("../images/background.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    text-align:center;
+
+    color:white;
+
+    padding:100px 0;
+
+}
+
+.page-banner h1{
+
+    color:white;
+    margin-bottom:15px;
+
+}
+
+.page-banner p{
+
+    color:#f1f5f9;
+    max-width:700px;
+    margin:auto;
+
+}
+
+/* ==========================================
+   SECTION TITLE
+========================================== */
+
+.section-title{
+
+    text-align:center;
+    margin-bottom:50px;
+
+}
+
+.section-title h2{
+
+    margin-bottom:15px;
+
+}
+
+.section-title p{
+
+    max-width:700px;
+    margin:auto;
+
+}
+
+/* ==========================================
+   FORM
+========================================== */
+
+form{
+
+    width:100%;
+
+}
+
+.form-group{
+
+    margin-bottom:20px;
+
+}
+
+label{
+
+    display:block;
+    margin-bottom:8px;
+    font-weight:500;
+
+}
+
+input,
+textarea,
+select{
+
+    width:100%;
+    padding:14px;
+
+    border:1px solid var(--border-color);
+
+    border-radius:var(--radius);
+
+    font-size:15px;
+
+    outline:none;
+
+    transition:var(--transition);
+
+    font-family:'Poppins',sans-serif;
+
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+
+    border-color:var(--secondary-color);
+
+}
+
+/* ==========================================
+   TABLE
+========================================== */
+
+table{
+
+    width:100%;
+    border-collapse:collapse;
+
+}
+
+th{
+
+    background:var(--primary-color);
+    color:white;
+    padding:15px;
+
+}
+
+td{
+
+    padding:15px;
+    border:1px solid var(--border-color);
+
+}
+
+/* ==========================================
+   PROGRESS BAR
+========================================== */
+
+progress{
+
+    width:100%;
+    height:12px;
+    margin:15px 0;
+
+}
+
+/* ==========================================
+   SCROLL BAR
+========================================== */
+
+::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:var(--secondary-color);
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#dbe4ef;
+
+}
