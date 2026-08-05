@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Login | ACADEXA</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/pages.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header class="header">
+
+        <div class="container">
+
+            <nav class="navbar">
+
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="../images/logo.png" alt="ACADEXA Logo">
+                        <span>ACADEXA</span>
+                    </a>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+                <div class="nav-buttons">
+                    <a href="login.html" class="btn btn-outline active">Login</a>
+                    <a href="register.html" class="btn btn-primary">Register</a>
+                </div>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!-- Login Section -->
+
+    <section class="login-section">
+
+        <div class="container">
+
+            <div class="login-card">
+
+                <h1>Student Login</h1>
+
+                <p>
+                    Login to access your dashboard, enrolled courses,
+                    learning modules, and progress.
+                </p>
+
+                <form id="loginForm">
+
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" placeholder="Enter your password" required>
+                    </div>
+
+                    <div class="form-options">
+
+                        <label>
+                            <input type="checkbox">
+                            Remember Me
+                        </label>
+
+                        <a href="#">Forgot Password?</a>
+
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full">
+                        Login
+                    </button>
+
+                </form>
+
+                <div class="login-footer">
+
+                    <p>
+                        Don't have an account?
+                        <a href="register.html">Register Here</a>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <p>&copy; 2026 ACADEXA. All Rights Reserved.</p>
+
+        </div>
+
+    </footer>
+
+    <!-- JavaScript -->
+
+    <script src="../js/main.js"></script>
+    <script src="../js/auth.js"></script>
+
+</body>
+
+</html>

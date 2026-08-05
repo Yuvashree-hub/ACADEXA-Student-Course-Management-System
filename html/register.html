@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Registration | ACADEXA</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/pages.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header class="header">
+
+        <div class="container">
+
+            <nav class="navbar">
+
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="../images/logo.png" alt="ACADEXA Logo">
+                        <span>ACADEXA</span>
+                    </a>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+                <div class="nav-buttons">
+                    <a href="login.html" class="btn btn-outline">Login</a>
+                    <a href="register.html" class="btn btn-primary active">Register</a>
+                </div>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!-- Registration Section -->
+
+    <section class="register-section">
+
+        <div class="container">
+
+            <div class="register-card">
+
+                <h1>Create Your Account</h1>
+
+                <p>
+                    Register to enroll in courses, access learning materials,
+                    and track your academic progress.
+                </p>
+
+                <form id="registerForm">
+
+                    <div class="form-group">
+                        <label>Full Name</label>
+                        <input type="text" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Student ID</label>
+                        <input type="text" placeholder="Enter your student ID" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Course / Department</label>
+                        <input type="text" placeholder="Enter your course" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" placeholder="Create a password" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Confirm Password</label>
+                        <input type="password" placeholder="Confirm your password" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full">
+                        Register
+                    </button>
+
+                </form>
+
+                <div class="register-footer">
+
+                    <p>
+                        Already have an account?
+                        <a href="login.html">Login Here</a>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <p>&copy; 2026 ACADEXA. All Rights Reserved.</p>
+
+        </div>
+
+    </footer>
+
+    <!-- JavaScript -->
+
+    <script src="../js/main.js"></script>
+    <script src="../js/auth.js"></script>
+
+</body>
+
+</html>
